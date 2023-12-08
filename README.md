@@ -1,1 +1,5 @@
 # brudam
+
+## 1. Escreva uma função em uma linguagem de programação de sua escolha que determine se uma string é um palíndromo. Um palíndromo é uma palavra, frase ou sequência que é igual quando ida da esquerda para a direita e da direita para a esquerda, ignorando espaços em branco, pontuação e diferenciação entre maiúsculas e minúsculas. Depois de elaborado a solução da questão na linguagem escolhida por você, monte toda a estrutura necessária para rodar esse código usando Docker. Não esqueça de orientar passo a passo como executar o seu código.
+
+### R. A função foi escrita no arquivo "isPalindromo.php". Para exemplo de usabilidade, você pode executar o arquivo de exemplo através do comando de execução do próprio PHP em um terminal, exemplo: "php exemplo.php". Este arquivo de exemplo aceita um parâmetro denominado "-s" no qual você pode fornecer qualquer string para validar se é um palíndromo, exemplo: "php exemplo.php -s "Olá mundo!".
