@@ -1,4 +1,4 @@
-# brudam
+# Brudam | Processo seletivo
 
 ## Teste de conhecimento
 
@@ -37,4 +37,4 @@ R3. Comandos para executar os testes:
 
 ### 4. Você como líder, designou uma equipe para desenvolver um micro serviço de uma API de entregas. O projeto foi entregue um pouco adiantado em relação ao prazo. Porém, você na sua posição precisa garantir que tudo está funcionando conforme o solicitado, sempre garantindo também boas práticas de desenvolvimento e performance. Essa equipe devolveu a você o repositório com o projeto finalizado (https://github.com/brudam-dev/BRUDAM-2023-09-18). Seu papel é analisar, descrever e resolver os problemas ou sugestões de mudança em relação a esse projeto. Se achar necessário, pode solicitar uma PR com essas mudanças. Essa análise precisa ter alterações em código realizado por você, e uma descrição do que precisa ser arrumado ou que já foi corrigido por você.
 
-R. 
+R. O arquivo contendo a análise feita do repositório encontra-se no diretório "task 4".
