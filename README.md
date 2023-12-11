@@ -4,7 +4,25 @@
 
 ### 1. Escreva uma função em uma linguagem de programação de sua escolha que determine se uma string é um palíndromo. Um palíndromo é uma palavra, frase ou sequência que é igual quando ida da esquerda para a direita e da direita para a esquerda, ignorando espaços em branco, pontuação e diferenciação entre maiúsculas e minúsculas. Depois de elaborado a solução da questão na linguagem escolhida por você, monte toda a estrutura necessária para rodar esse código usando Docker. Não esqueça de orientar passo a passo como executar o seu código.
 
-R. A função foi escrita no arquivo "isPalindromo.php", dentro do diretório "task 1". Para exemplo de usabilidade, você pode executar o arquivo de exemplo através do comando de execução do próprio PHP em um terminal, exemplo: "php exemplo.php". Este arquivo de exemplo aceita um parâmetro denominado "-s" no qual você pode fornecer qualquer string para validar se é um palíndromo, exemplo: "php exemplo.php -s "Olá mundo!".
+R1. A função foi escrita no arquivo "isPalindromo.php", dentro do diretório "task 1". Para exemplo de usabilidade, você pode executar o arquivo de exemplo através do comando de execução do próprio PHP em um terminal (exemplo abaixo). Este arquivo de exemplo aceita um parâmetro denominado "-s" no qual você pode fornecer qualquer string para validar se é um palíndromo.
+
+> // exemplo de usabilidade
+>
+> // arquivo de exemplo
+> 
+> php exemplo.php
+>
+> // exemplo com parâmetro
+>
+> php exemplo -s "Olá mundo!"
+
+R2. Para rodar via Docker, execute os seguintes comandos para criar o container e acessar o terminal para então executar os comandos citados na R1:
+
+> docker build -t ispalindrome .
+>
+> docker run --name ispalindrome -d -i -t ispalindrome
+>
+> docker exec -it ispalindrome bash
 
 ### 2. Imagine que você está encarregado de projetar a arquitetura de software para um sistema de gerenciamento de entregas em tempo real na Brudam. O sistema deve permitir que os usuários pesquisem e solicitem entregas, gerenciem seus lançamentos baseados em entregas realizadas com sucesso, façam cotações e vejam a disponibilidade entregas feitas expressamente. Além disso, os usuários devem ser capazes de adicionar novas entregas ao sistema, atualizar informações das entregas existentes e gerenciar entrega em trânsito. Descreva a arquitetura de software geral para este sistema. Considere fatores como escalabilidade, segurança, manutenção e desempenho. Você pode usar diagramas, se necessário, para ilustrar sua arquitetura.
 
